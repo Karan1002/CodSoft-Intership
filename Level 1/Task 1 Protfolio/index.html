@@ -4,139 +4,314 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karan Sakhat | Portfolio</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
+    <main class="main">
+        <section class="subMain">
+            <nav class="navbar">
 
-    <header class="header">
-        <nav class="container">
-            <div class="brand">KS</div>
-            <div class="headerbutton">
-                <a href="#">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-                <a href="KaranCv.pdf" download class="button-resume">Resume</a>
-            </div>
-        </nav>
-    </header>
+                <section class="logoSection">
+                    <h3 class="logo">KARAN SAKHAT</h3>
+                </section>
 
-    <section class="main-design">
-        <div class="main-design-bg">
-            <div class="bg-blob-1"></div>
-            <div class="bg-blob-2"></div>
-        </div>
-        <div class="main-design-content">
-            <p class="main-design-subtitle">Full Stack Developer</p>
-            <h1 class="main-design-title">
-                I build modern websites <br>
-                and meaningful digital <br>
-                experiences with <span>intent.</span>
-            </h1>
-            <a href="#projects" class="btn-link">View My Work</a>
-        </div>
-    </section>
+                <div class="menu" id="menuBtn">
+                    <span class="material-icons">menu</span>
+                </div>
 
-    <section id="about" class="section">
-        <div class="container about-grid">
-            <div class="about-text">
-                <h2 class="section-title">About Me</h2>
-                <p>
-                    Hi, I'm Karan, a Full Stack Developer from Mumbai who enjoys building
-                    websites that feel smooth, clean, and easy to use.
-                </p>
-                <p>
-                    I work on both frontend and backend, but I especially enjoy creating
-                    interactive and user-friendly interfaces.
-                </p>
-                <p>
-                    Every project helps me gain experience and learn something new.
-                </p>
+                <section class="linkSection" id="navLinks">
+                    <ul class="navlink">
+                        <li class="link"><a href="#projects">Work</a></li>
+                        <li class="link"><a href="#about">About</a></li>
+                        <li class="link"><a href="#contact">Contact</a></li>
+                        <li class="link activated"><a href="#hire">Hire Me</a></li>
+                    </ul>
+                </section>
 
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <h4>Location</h4>
-                        <p>Mumbai, India</p>
+            </nav>
+            <!-- Navlink End -->
+
+            <section class="landingPage">
+                <main>
+                    <section>
+                        <p class="mainpara">Available for new opportunities</p>
+                        <h1>Building digital </h1>
+                        <h1> experiences that</h1>
+                        <h1>matter.</h1>
+                        <p class="endingPara">I'm Alex, a Senior Full-Stack Engineer specializing in crafting
+                            high-performance
+                            web applications
+                            with modern technologies.</p>
+                    </section>
+                    <section class="button">
+                        <a href="#projects"> <button class="viewBtn">View Projects ➜</button></a>
+                        <a href="#contact"> <button class="talkBtn">Let's Talk</button></a>
+                    </section>
+                </main>
+            </section>
+            <!--landingPage End -->
+
+            <section class="about-container" id="about">
+
+                <aside class="about-image">
+                    <img src="imageParis.jpg" alt="About Image">
+                </aside>
+
+                <section class="about">
+                    <h1 class="h1">About Me</h1>
+
+                    <p class="mydetail">
+                        I'm a passionate developer who loves bridging the gap between design and technology.
+                        With a background in both computer science and visual arts, I bring a unique perspective
+                        to every project I touch.
+                    </p>
+
+                    <p class="mydetail2">
+                        My journey started with simple HTML/CSS and has evolved into building complex
+                        distributed systems and immersive frontend experiences. I believe in writing
+                        clean, maintainable code that solves real-world problems.
+                    </p>
+
+                    <section class="info">
+                        <div class="edu1">
+                            <h3>Education</h3>
+                            <p class="edu">Computer Science (BCA)</p>
+                            <p class="edu">TMV University</p>
+                        </div>
+
+                        <div class="loc1">
+                            <h3>Location</h3>
+                            <p class="loc">San Francisco, CA</p>
+                            <p class="loc">Remote Friendly</p>
+                        </div>
+                    </section>
+
+                </section>
+
+            </section>
+            <!-- AboutPage End -->
+
+            <section class="exp">
+                <h1>Expertise</h1>
+                <p class="subtitle">The tools and technologies I use to bring ideas to life.</p>
+
+                <div class="grid">
+
+                    <div class="card">
+                        <div class="icon">💻</div>
+                        <h3>Frontend Dev</h3>
+                        <p>Development</p>
                     </div>
-                    <div class="stat-item">
-                        <h4>Experience</h4>
-                        <p>Passionate student focused on continuous learning and growth.</p>
+
+                    <div class="card">
+                        <div class="icon">🎨</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Design</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>Frontend</h3>
-                    <p>HTML, CSS, JavaScript, React (Basic)</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Backend</h3>
-                    <p>Node.js (Basic), MongoDB, SQL</p>
-                </div>
-                <div class="skill-card">
-                    <h3>Tools</h3>
-                    <p>Git, Render, VS Code, Vercel</p>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <div class="card">
+                        <div class="icon">⚙️</div>
+                        <h3>Backend Systems</h3>
+                        <p>Development</p>
+                    </div>
 
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
+                    <div class="card active">
+                        <div class="icon">🌐</div>
+                        <h3>Cloud Architecture</h3>
+                        <p>Infrastructure</p>
+                    </div>
 
-                <div class="project-card">
-                    <img src="bank.png" alt="Capital Rise Banking Website">
-                    <div class="project-info">
-                        <h3>Capital Rise Banking Website</h3>
+                </div>
+            </section>
+            <!--ExpPage End-->
+
+            <section class="projects" id="projects">
+                <section>
+                    <h1>Selected Works</h1>
+                    <p>A collection of projects I've built recently.</p>
+                </section>
+
+                <aside class="cards">
+
+                    <div class="crd">
+                        <img src="bank.PNG" alt="Project image">
+
+                        <div class="abproject">
+                            HTML, CSS, JS, MongoDB
+                        </div>
+
+                        <h2>Banking Website</h2>
+
                         <p>
-                            A full-stack banking application built using HTML, CSS, JavaScript,
-                            React, and MongoDB.
+                            A modern banking website built using HTML, CSS, JavaScript and MongoDB
+                            for secure and efficient financial management.
                         </p>
-                        <div class="project-links">
-                            <a href="https://capital-rise-bank-crb.vercel.app/" target="_blank">Live Demo</a>
-                            <a href="https://github.com/Karan1002/Capital-Rise-Bank-CRB-" target="_blank">GitHub</a>
+                        <a class="abproject" href="https://lndb.vercel.app" target="_blank">
+                            Live Demo
+                        </a>
+                    </div>
+                    <div class="crd">
+                        <img src="basic.png" alt="Project image">
+
+                        <div class="abproject">
+                            HTML, CSS, JS, MongoDB
+                        </div>
+
+                        <h2>Banking Website</h2>
+
+                        <p>
+                            A modern banking website built using HTML, CSS, JavaScript and MongoDB
+                            for secure and efficient financial management.
+                        </p>
+                        <a class="abproject" href="https://yourprojectlink.com" target="_blank">
+                            Live Demo
+                        </a>
+                    </div>
+
+                    <div class="crd">
+                        <img src="basic.png" alt="Project image">
+
+                        <div class="abproject">
+                            HTML, CSS, JS
+                        </div>
+
+                        <h2>Basic Calculator</h2>
+
+                        <p>This is The basic calculator built in using HTML,CSS And JavaScript</p>
+                        <a class="abproject" href="https://yourprojectlink.com" target="_blank">
+                            Live Demo
+                        </a>
+                    </div>
+                </aside>
+
+            </section>
+            <!--ProjectPage End-->
+
+            <section class="pdf" id="hire">
+                <h1>Ready to Start a Projects ?</h1>
+                <p class="dec">Download my full resume to see my detailed work history and technical skills.</p>
+                <div class="Btnpdf1"> <a class="btnpdf" href="KaranCV.PDF">Download Resume</a>
+                </div>
+            </section>
+            <!--ResumePage End-->
+
+            <section class="contact-section" id="contact">
+
+                <div class="contact-container">
+
+                    <div class="contact-left">
+
+                        <h1>Get in touch</h1>
+
+                        <p>
+                            Have a project in mind or just want to say hi? Feel free to reach out.
+                            I'm always open to discussing new projects, creative ideas or opportunities
+                            to be part of your visions.
+                        </p>
+
+                        <div class="contact-info">
+
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+
+                                <div>
+                                    <span class="label">EMAIL</span>
+                                    <h3>karansakhat971@gmail.com</h3>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+
+                                <div>
+                                    <span class="label">PHONE</span>
+                                    <h3>+91 7718059759</h3>
+                                </div>
+                            </div>
+
+                            <div class="social-icons">
+                                <a href="https://github.com/Karan1002" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/karan-sakhat-318a71307/" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
+
+                    <div class="contact-form">
+
+                        <form>
+
+                            <div class="form-row">
+
+                                <div class="form-group">
+                                    <label>NAME</label>
+                                    <input type="text" placeholder="John Doe">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>EMAIL</label>
+                                    <input type="email" placeholder="john@example.com">
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label>SUBJECT</label>
+                                <input type="text" placeholder="Project Inquiry">
+                            </div>
+
+                            <div class="form-group">
+                                <label>MESSAGE</label>
+                                <textarea placeholder="Tell me about your project..."></textarea>
+                            </div>
+
+                            <button type="submit">Send Message</button>
+
+                        </form>
+
+                    </div>
+
                 </div>
 
-            </div>
-        </div>
-    </section>
+            </section>
+            <!--Contect Page End-->
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <section class="Footer">
+                <h1 class="fheder">Karan Sakhat</h1>
 
-            <div class="contact-details">
-                <p><strong>Name:</strong> Karan Sakhat</p>
-                <p><strong>Email:</strong> <a href="mailto:karnsakhat971@gmail.com">karansakhat971@gmail.com</a></p>
-                <p><strong>Phone:</strong> <a href="tel:+917718059759">+91 7718059759</a></p>
-            </div>
+                <p class="fdetail">© 2026 Karan Sakhat. All rights reserved.</p>
 
-            <form class="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
+                <div class="footerlink">
+                    <p class="privacy">Privacy Policy</p>
+                    <p class="term">Terms of Service</p>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const navLinks = document.getElementById("navLinks");
 
-    <footer class="footer">
-        <p>© 2026 Karan Sakhat | Mumbai, India</p>
-    </footer>
-
+        menuBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
 </body>
 
 </html>
